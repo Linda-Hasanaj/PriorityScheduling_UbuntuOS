@@ -1,6 +1,6 @@
 ## Priority Scheduling
+Priority Scheduling is an algorithm where a priority number (integer) is assigned to each process that is ready to be executed. The process with the highest or lowest priority number, depending on the operating system, is selected for execution.
+### Types of Priority Scheduling Algorithm
+1. Priority Preemptive Scheduling: In this type, if a process with a higher priority arrives while another process is being executed, the CPU will be allocated to the newly arrived process.
 
-This algorithm follows a method according to which, a priority number (integer) is assigned to the processes ready to be executed, then the process to be selected for execution has the lower or higher priority number, depending on the operating system we are on.
-There are two types of priority scheduling algorithms:
-1. Priority preemptive scheduling: If during the execution time of a process a process with a higher priority has reached, the CPU will be allocated to the newly reached process.
-2. Priority nonpreemptive scheduling: The process that has the highest priority will be executed until its termination even if during this time a process that has the highest priority arrives.
+2. Priority Non-preemptive Scheduling: In this type, the process with the highest priority is executed until it completes, even if a higher priority process arrives during its execution.
