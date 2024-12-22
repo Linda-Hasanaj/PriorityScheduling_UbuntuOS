@@ -1,6 +1,26 @@
-## Priority Scheduling
-Priority Scheduling is an algorithm where a priority number (integer) is assigned to each process that is ready to be executed. The process with the highest or lowest priority number, depending on the operating system, is selected for execution.
-### Types of Priority Scheduling Algorithm
-1. Priority Preemptive Scheduling: In this type, if a process with a higher priority arrives while another process is being executed, the CPU will be allocated to the newly arrived process.
+# Priority Scheduling
+This project implements a Priority Scheduling algorithm in C. Priority Scheduling in a CPU scheduling algorithm that selects the process to execute based on priority. Processes with higher priority are executed before those with lower priority.
 
-2. Priority Non-preemptive Scheduling: In this type, the process with the highest priority is executed until it completes, even if a higher priority process arrives during its execution.
+The project is developed and tested on the Ubuntu operating system.
+
+## Features
+- Implements Preemptive and Non-preemptive Priority Scheduling.
+- Supports process attributes such as:
+    - Process ID
+    - Arrival Time
+    - Burst Time
+    - Priority
+  - Calculates key scheduling metrics:
+    - Turnaround time
+    - Response time
+    - Completion time
+
+## Requirements
+- Operating System: Ubuntu (or any Linux distribution)
+- Compiler: GCC
+- Basic understanding of CPU scheduling algorithms.
+
+## Running the program
+- Clone the repository.
+- Compile the program: gcc -o PriorityScheduling PriorityScheduling.c
+- Run the program: ./PriorityScheduling
