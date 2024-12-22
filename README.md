@@ -10,7 +10,7 @@ The project is developed and tested on the Ubuntu operating system.
     - Arrival Time
     - Burst Time
     - Priority
-  - Calculates key scheduling metrics:
+- Calculates key scheduling metrics:
     - Turnaround time
     - Response time
     - Completion time
